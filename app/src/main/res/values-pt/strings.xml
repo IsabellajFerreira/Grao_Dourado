@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Grao_Dourado</string>
+    <string name="cappuccino" tools:ignore="ExtraTranslation">Cappuccino</string>
+    <string name="cafe" tools:ignore="ExtraTranslation">Café</string>
+    <string name="salgado" tools:ignore="ExtraTranslation">Salgado</string>
+    <string name="produto" tools:ignore="ExtraTranslation"> Pesquisar</string>
+
+    <string name="nome" tools:ignore="ExtraTranslation">Nome</string>
+    <string name="email" tools:ignore="ExtraTranslation">Email</string>
+    <string name="telefone" tools:ignore="ExtraTranslation">Telefone</string>
+    <string name="selecione_categoria" tools:ignore="ExtraTranslation">Selecione</string>
+    <string name="observacoes" tools:ignore="ExtraTranslation">Observações</string>
+    <string name="enviar" tools:ignore="ExtraTranslation">Enviar</string>
+</resources>

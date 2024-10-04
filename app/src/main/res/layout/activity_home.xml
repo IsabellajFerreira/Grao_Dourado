@@ -45,7 +45,7 @@
             android:elevation="10dp"
             android:ems="10"
             android:inputType="text"
-            android:text="Pesquisar produto"
+            android:text="@string/produto"
             android:textColor="#000000"
             android:textColorHint="#FFFFFF"
             app:layout_constraintTop_toTopOf="parent" />
@@ -175,7 +175,7 @@
             android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@drawable/fundo_btn"
-            android:text="Cappuccino" />
+            android:text="@string/cappuccino" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button6"
@@ -185,7 +185,7 @@
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
             android:background="@drawable/fundo_btn_cinza"
-            android:text="Café"
+            android:text="@string/cafe"
             android:textColor="#FD5D00" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -194,7 +194,7 @@
             android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@drawable/fundo_btn_cinza"
-            android:text="Salgados"
+            android:text="@string/salgado"
             android:textColor="#FB5C00" />
     </LinearLayout>
 

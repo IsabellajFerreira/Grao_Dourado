@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/fundo_branco"
+        android:src="@drawable/cadastro" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="834dp">
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="426dp"
+            android:hint="@string/nome"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.548"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.136" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="496dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.548"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTelefone"
+            android:layout_width="384dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/telefone"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+        <Spinner
+            android:id="@+id/spinner_categoria"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:prompt="@string/selecione_categoria"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.548"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTelefone"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editTextObservacao"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/observacoes"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.548"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_categoria" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/green"
+            android:backgroundTint="@color/green"
+            android:backgroundTintMode="add"
+            android:text="@string/enviar"
+            android:textColorLink="@color/green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextObservacao"
+            app:layout_constraintVertical_bias="0.0"
+            app:rippleColor="#F6F6F6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
